@@ -1,0 +1,27 @@
+#table {
+    border: 1px solid blue;
+    width: 700px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.height-content {
+    background-color: aqua;
+    grid-row: 2 / -1;
+}
+
+.width-content {
+    background-color: bisque;
+    grid-column: 2 / -1;
+}
+
+.table-content {
+    background-color: rosybrown;
+    grid-area: 3 / 3 / -1 / span 3;
+}
+
+.content {
+    text-align: center;
+}
